@@ -1,0 +1,37 @@
+#drum-machine {
+  text-align: center;
+  margin: 50px;
+}
+
+.base-drum {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-rows: repeat(3, 1fr);
+  margin: 150px auto;
+  width: min-content;
+}
+
+.drum-pad {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #718081;
+  border-radius: 10px;
+  background-color: #D7ECED;
+  font-size: 17px;
+  box-shadow: 4px 4px 10px #272B2B;
+  transition: all 0.2s ease-in-out;
+}
+
+#display {
+  padding: auto;
+  width: auto;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+h1 {
+  font-family: Geneva, Verdana, sans-serif;
+  color: #414a4b;
+}
